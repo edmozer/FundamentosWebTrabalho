@@ -91,3 +91,7 @@ button[type=submit]:hover {
     border-style: none;
     border-radius: 50px;
 }
+.github-icon {
+    width:25px;
+    height: 25px;
+  }
