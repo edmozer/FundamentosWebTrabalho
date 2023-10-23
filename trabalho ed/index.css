@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #0e0b23;
+    color: #cdcccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+    border-radius: 10px;
+    border: 5px #cdcccc;
+    border-style: double;
+    width: 180px;
+    height: 230px;
+}
+.background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    border-style: double #cdcccc;
+}
+.center {
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ee3124;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    color: white;
+}
+h1 {
+    color: #035aa4;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    color: #cdcccc;
+    text-align: left;
+    margin-top: 50px;
+}
+footer {
+    background-color: #cdcccc;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+footer p {
+    color: #035aa4;
+}
+.container {
+    padding: 0px 50px;
+}
+input {
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+button {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+button[type=submit] {
+    margin-left: auto;
+    display: block;
+}
+button[type=submit]:hover {
+    background-color: #cdcccc;
+}
+#name {
+    height: 20px;
+}
+#email {
+    height: 20px;
+}
+#message {
+    height: 200px;
+}
+#formacaoedu {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    border-radius: 50px;
+}
